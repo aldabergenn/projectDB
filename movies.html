@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movies List</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h2 class="logo">Movies Portal</h2>
+        <nav class="navigation">
+            <button class="btnLogout">Logout</button>
+        </nav>
+    </header>
+    
+    <main>
+        <section class="add-movie-section">
+            <button id="addMovieBtn" class="btn-add-movie">Добавить фильм</button>
+            <button id="backBtn" class="btn-back" style="display: none;">Назад</button>
+            
+            <h3>Добавить новый фильм</h3>
+            <form id="addMovieForm" style="display: none;">
+                
+                <input type="text" id="movieTitle" placeholder="Title" required />
+                <textarea id="movieDescription" placeholder="Description" required></textarea>
+                <input type="date" id="movieReleaseDate" required />
+                <input type="url" id="movieImageUrl" placeholder="Image URL" required />
+                <button type="submit">Добавить</button>
+            </form>
+        </section>
+        
+        <section class="view-movies-section">
+            <h3>Список фильмов</h3>
+            <div id="moviesList" class="movies-list">
+            </div>
+          </section>
+    </main>
+    
+    <script src="movies.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,195 @@
+
+body {
+  font-family: 'Arial', sans-serif;
+  background: url('9.jpg') no-repeat center center fixed;
+  background-size: cover;
+  color: #000000;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  
+  color: rgb(0, 0, 0);
+  padding: 15px 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+header .logo {
+  font-size: 2rem;
+  margin: 0;
+}
+
+
+header .navigation .btnLogout {
+  padding: 10px 20px;
+  background-color: #ff4747;
+  color: rgb(255, 255, 255);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+header .navigation .btnLogout:hover {
+  background-color: #e03636;
+}
+
+main {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.add-movie-section {
+  margin-bottom: 40px;
+  text-align: center;
+  
+}
+
+.add-movie-section h3 {
+  font-size: 1.5em;
+  margin-bottom: 20px;
+  color: #fff;
+}
+
+.add-movie-section input,
+.add-movie-section textarea {
+  width: 100%;
+  max-width: 400px;
+  padding: 10px;
+  margin: 10px auto;
+  border: 1px solid ;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.add-movie-section input[type="date"],
+.add-movie-section input[type="url"] {
+  font-size: 1em;
+}
+
+.add-movie-section button {
+  cursor: pointer;
+}
+
+.add-movie-section button[type="submit"] {
+  background-color: #28a745;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 1.1em;
+}
+
+.add-movie-section button[type="submit"]:hover {
+  background-color: #218838;
+}
+
+.add-movie-section .btn-back {
+  background-color: #ffc107;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.1em;
+}
+
+.add-movie-section .btn-back:hover {
+  background-color: #e0a800;
+}
+
+.view-movies-section {
+  text-align: center;
+  color: #000000;
+}
+
+#moviesList {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.movie-card {
+  background-color: white;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s;
+  text-align: center;
+}
+
+.movie-card:hover {
+  transform: translateY(-10px);
+}
+
+.movie-card img {
+  width: 100%;
+  max-height: 250px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.movie-card h3 {
+  font-size: 1.2em;
+  margin-top: 15px;
+}
+
+.movie-card p {
+  font-size: 0.9em;
+  color: #555;
+  margin: 10px 0;
+}
+
+.movie-card .release-date {
+  font-size: 0.8em;
+  color: #888;
+  margin-top: 5px;
+}
+
+@media (max-width: 600px) {
+  .movie-card {
+    padding: 10px;
+  }
+
+  .movie-card img {
+    max-height: 200px;
+  }
+
+  .add-movie-section input,
+  .add-movie-section textarea {
+    width: 90%;
+  }
+
+  .add-movie-section button[type="submit"],
+  .add-movie-section .btn-back,
+  .view-movies-section button {
+    width: 90%;
+    font-size: 1em;
+  }
+}
+#addMovieBtn {
+  background: linear-gradient(45deg, #ff6f61, #ffba08); 
+  color: white;
+  border: none;
+  padding: 15px 30px;
+  border-radius: 5px;
+  font-size: 1.2em;
+  cursor: pointer;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+
+#addMovieBtn:hover {
+  background: linear-gradient(45deg, #ffba08, #ff6f61); 
+  transform: translateY(-5px); 
+}
+
+#addMovieBtn:focus {
+  outline: none; 
+  box-shadow: 0 0 10px rgba(0, 123, 255, 0.8); 
+}
