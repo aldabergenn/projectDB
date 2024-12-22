@@ -45,7 +45,14 @@ project-folder/
 ## 🖼 Example of the interface
 
 ![image](https://github.com/aldabergenn/projectDB/blob/main/assets/erdiagram.png)
-![image](https://github.com/user-attachments/assets/cd56f5c1-c23c-4124-84f0-403acb2c7213)
+![image](https://github.com/aldabergenn/projectDB/blob/main/assets/d7becbe6-b3f7-456e-a6f9-36cdd4349a04.jpeg)
+![image](https://github.com/aldabergenn/projectDB/blob/main/assets/497a8330-c7e2-4858-89f4-d3fd2177b762.jpeg)
+![image](https://github.com/aldabergenn/projectDB/blob/main/assets/7dd9e2a2-412f-45b9-ae2a-3ac1c264bf86.jpeg)
+![image](https://github.com/aldabergenn/projectDB/blob/main/assets/9bfb5751-6d1d-4505-8605-10cccdefa54c.jpeg)
+![image](https://github.com/aldabergenn/projectDB/blob/main/assets/d7becbe6-b3f7-456e-a6f9-36cdd4349a04.jpeg)
+![image](https://github.com/aldabergenn/projectDB/blob/main/assets/5320a4ea-0ceb-4b76-aa89-d70f9909b156.jpeg)
+![image](https://github.com/aldabergenn/projectDB/blob/main/assets/9c9643a7-083a-42a4-a5d5-5b4bef6a8862.jpeg)
+![image](https://github.com/aldabergenn/projectDB/blob/main/assets/a48de485-46f6-4b59-825e-4e97c8b1e136.jpeg)
 
 ## ⛁ Database Design
 The project includes a relational database to store information about users, movies, genres, directors, actors, reviews, and their relationships.
