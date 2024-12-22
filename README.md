@@ -44,7 +44,7 @@ project-folder/
 
 ## 🖼 Example of the interface
 
-![image]assets/er diagram.png
+![image](assets/er diagram.png)
 
 ## ⛁ Database Design
 The project includes a relational database to store information about users, movies, genres, directors, actors, reviews, and their relationships.
