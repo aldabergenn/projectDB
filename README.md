@@ -44,7 +44,7 @@ project-folder/
 
 ## 🖼 Example of the interface
 
-![image](https://github.com/aldabergenn/projectDB/main/assets/erdiagram.png)
+![image](https://github.com/aldabergenn/projectDB/blob/main/assets/erdiagram.png)
 ![image](https://github.com/user-attachments/assets/cd56f5c1-c23c-4124-84f0-403acb2c7213)
 
 ## ⛁ Database Design
