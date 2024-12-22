@@ -1,6 +1,6 @@
 # Documentation for the Project
 
-## Project Overview
+## 📋 Project Overview
 This project is a web-based application that includes functionalities for user authentication (Login & Registration) and provides information about the top-rated films on Kinopoisk. The project features several pages including a Home page, About page, Contact page, and Movies list.
 
 ### Pages Included:
@@ -10,7 +10,7 @@ This project is a web-based application that includes functionalities for user a
 - **contact.html**: Provides contact information and social media links.
 - **movies.html**: Allows users to view and add movies to a list.
 
-## Folder Structure
+## 📂 Folder Structure
 ```
 project-folder/
 |-- index.html
@@ -29,7 +29,7 @@ project-folder/
 |-- docker-compose.yaml
 ```
 
-## Features
+## 🛠 Features
 - **Authentication System**: 
   - Login and registration forms with validation.
   - Remember Me and Forgot Password options.
@@ -42,7 +42,11 @@ project-folder/
   - Information about top-rated movies.
   - Contact details and social media links.
 
-## Database Design
+## 🖼 Example of the interface
+
+![image]
+
+## ⛁ Database Design
 The project includes a relational database to store information about users, movies, genres, directors, actors, reviews, and their relationships.
 
 ### Tables
@@ -160,7 +164,7 @@ CREATE TABLE reviews (
 );
 ```
 
-## Docker Configuration
+## 💡 Docker Configuration
 The project includes a `docker-compose.yaml` file for setting up a MySQL database container.
 
 ### docker-compose.yaml
@@ -182,23 +186,32 @@ networks:
     driver: bridge
 ```
 
-## Technologies Used
+## 🌐 Browser compatibility
+
+The project supports the following browsers:
+
+- Google Chrome
+- Mozilla Firefox
+- Safari
+- Microsoft Edge
+
+## 🧑‍💻 Technologies Used
 - **HTML5**: Structuring the pages.
 - **CSS3**: Styling and responsive design.
 - **JavaScript**: Client-side interactivity.
 - **SQL**: Relational database for data management.
 - **Docker**: Containerized deployment for the database.
 
-## How to Run
+## 🚀 How to Run
 1. Clone the repository.
 2. Open `index.html` in any modern web browser to start the application.
 3. Set up the database by executing the SQL scripts provided.
 4. Use `docker-compose up` to start the MySQL database container.
 
-## Future Improvements
+## 🔜 Future Improvements
 - Add server-side integration for storing and managing user data.
 - Include a search feature for movies.
 - Enhance security features for authentication.
 
-## Contact
+## 📞 Contact
 For any issues or suggestions, feel free to reach out via the links provided on the Contact page.
